@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receber Letras</title>
+</head>
+<body>
+    <h1>Receber Letras</h1>
+
+    <script>
+        function recebeLetra() {
+            return prompt("Digite uma letra:");
+        }
+
+        let listaLetras = [];
+
+        for (let i = 0; i < 10; i++) {
+            let letra = recebeLetra();
+            listaLetras.push(letra);
+        }
+
+        console.log("Letras digitadas:", listaLetras);
+    </script>
+</body>
+</html>

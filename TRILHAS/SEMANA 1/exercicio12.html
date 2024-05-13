@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receber Letras</title>
+</head>
+<body>
+    <h1>Receber Letras</h1>
+
+    <script>
+        function recebeLetra() {
+            return prompt("Digite uma letra:");
+        }
+
+        let listaLetras = [];
+
+        for (let i = 0; i < 10; i++) {
+            let letra = recebeLetra();
+            listaLetras.push(letra);
+        }
+
+        console.log("a) A primeira letra digitada:", listaLetras[0]);
+        console.log("b) A quarta letra digitada:", listaLetras[3]);
+        console.log("c) A quinta letra digitada:", listaLetras[4]);
+        console.log("d) A última letra digitada:", listaLetras[listaLetras.length - 1]);
+        console.log("e) O tamanho da lista criada:", listaLetras.length);
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume da Piscina</title>
+</head>
+
+<body>
+    <h1>Volume da Piscina</h1>
+
+    <script>
+        const raio = 3.5;
+        const altura = 1.6;
+        const pi = 3.14;
+
+        const areaBase = pi * raio * raio;
+
+        const volumeMetrosCubicos = areaBase * altura;
+
+        const volumeLitros = volumeMetrosCubicos * 1000;
+
+        document.write("Volume da piscina em litros: " + volumeLitros);
+    </script>
+</body>
+
+</html>
