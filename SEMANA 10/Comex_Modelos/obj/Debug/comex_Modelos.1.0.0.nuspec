@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Comex_Modelos</id>
+    <version>1.0.0</version>
+    <title>Comex</title>
+    <authors>Ariel</authors>
+    <description>Um pacote para a aplicação Comex.</description>
+    <copyright>Aplicação de Código Aberto</copyright>
+    <repository type="git" url="https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho" commit="a93a303a77d42b2a58c08f8b2024084547992f76" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Data.SqlClient" version="5.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex_Modelos.dll" target="lib\net8.0\Comex_Modelos.dll" />
+    <file src="C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex_Modelos.xml" target="lib\net8.0\Comex_Modelos.xml" />
+  </files>
+</package>
